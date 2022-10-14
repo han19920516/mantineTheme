@@ -1,36 +1,11 @@
 export const variable = {
-  //default color
-  white: "#fff",
-  black: "#000",
-  red: "#f44336",
-  orange: "#F44336",
-  yellow: "#FFC107",
-  green: "#4CAF50",
-  blue: "#1E96FC",
-  teal: "#5bc0de",
-  pink: "#E91E63",
-  purple: "#613d7c",
-
+  
   primaryColor: "blue",
   secondaryColor: "#E91E63",
   error: "#F44336",
   warning: "#FFC107",
   success: "#4CAF50",
   info: "#1E96FC",
-
-  primaryDark: "#0261B2",
-  secondaryDark: "#930C3B",
-  errorDark: "#BA1709",
-  warningDark: "#A07800",
-  successDark: "#2D692F",
-  infoDark: "#0261B2",
-
-  primaryLight: "#83C5FD",
-  secondaryLight: "#F27AA3",
-  errorLight: "#F99D97",
-  warningLight: "#FFDB6D",
-  successLight: "#92CE94",
-  infoLight: "#83C5FD",
 
   primaryBG: "#DEF0FF",
   secondaryBG: "#FCDEE8",
