@@ -34,7 +34,8 @@ export function ContainedInputs() {
   const {container}=myTheme().classes;
 
   return (
-    <div className={container}>
+    <div>
+      sss
       <TextInput label="Shipping address" placeholder="15329 Huston 21st" classNames={classes} />
       <Select
         style={{ marginTop: 20, zIndex: 2 }}

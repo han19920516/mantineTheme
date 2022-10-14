@@ -3,36 +3,9 @@ import variable from "./variables";
 
 const mantineTheme: MantineThemeOverride = {
   colorScheme: 'light',
-  primaryColor: "blue",
-  colors: {
-    // override default blue colors
-    blue: [
-      "#E7F5FF",
-      "#D0EBFF",
-      "#A5D8FF",
-      "#74C0FC",
-      "#4DABF7",
-      "#339AF0",
-      "#228BE6",
-      "#1E96FC",
-      "#1971C2",
-      "#1864AB",
-    ],
-    custom: [
-      "#111110",
-      "#111111",
-      "#111112",
-      "#111113",
-      "#111114",
-      "#111115",
-      "#111116",
-      "#111117",
-      "#111118",
-      "#111119",
-    ],
-  },
+  primaryColor: 'blue',
   headings: {
-    fontFamily: variable.fontFamilyAdvanced,
+    fontFamily: variable.fontFamily,
     fontWeight: variable.fontWeightLight,
     sizes: {
       h1: {
@@ -62,40 +35,26 @@ const mantineTheme: MantineThemeOverride = {
     },
   },
   fontFamily: variable.fontFamily,
-  breakpoints: {
-    xs: 320,
-    sm: 600,
-    md: 960,
-    lg: 1280,
-    xl: 1920,
+  fontSizes: {
+    xs: variable.fontSizeXs,
+    sm: variable.fontSizeSm,
+    md: variable.fontSizeMd,
+    lg: variable.fontSizeLg,
+    xl: variable.fontSizeXl,
   },
-  other: {
-    fontFamilyAdvanced: variable.fontFamilyAdvanced,
-    palette: {
-      black: "#000",
-      white: variable.white,
-      // white: '#fff',
-      themePrimary: "#1E96FC",
-      themeLighterAlt: "#f6fbff",
-      themeLighter: "#dbeeff",
-      themeLight: "#bbdffe",
-      themeTertiary: "#78bffd",
-      themeSecondary: "#E91E63",
-      themeDarkAlt: "#1b86e3",
-      themeDark: "#1771c0",
-      themeDarker: "#11538d",
-      neutralLighterAlt: "#1e1e1e",
-      neutralLighter: "#1d1d1d",
-      neutralLight: "#1c1c1c",
-      neutralQuaternaryAlt: "#1a1a1a",
-      neutralQuaternary: "#f4f4f4",
-      neutralTertiaryAlt: "#181818",
-      neutralTertiary: "#c8c8c8",
-      neutralSecondary: "#d0d0d0",
-      neutralPrimaryAlt: "#dadada",
-      neutralPrimary: "#FFFFFF",
-      neutralDark: "#f4f4f4",
-    },
+  spacing: {
+    xs: variable.spacingXs,
+    sm: variable.spacingSm,
+    md: variable.spacingMd,
+    lg: variable.spacingLg,
+    xl: variable.spacingXl,
+  },
+  breakpoints: {
+    xs: variable.breakpointXs,
+    sm: variable.breakpointSm,
+    md: variable.breakpointMd,
+    lg: variable.breakpointLg,
+    xl: variable.breakpointXl,
   },
 };
 

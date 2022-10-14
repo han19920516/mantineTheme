@@ -11,8 +11,8 @@ export const variable = {
   pink: "#E91E63",
   purple: "#613d7c",
 
-  primary: "#1E96FC",
-  secondary: "#E91E63",
+  primaryColor: "#1E96FC",
+  secondaryColor: "#E91E63",
   error: "#F44336",
   warning: "#FFC107",
   success: "#4CAF50",
@@ -64,7 +64,21 @@ export const variable = {
 
   //header height for per page padding top value
   headerHeight: 118,
-
+  //shadow customise
+  shadows:{
+    xs: '0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.1)',
+    sm: '0 1px 3px rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05) 0px 10px 15px -5px, rgba(0, 0, 0, 0.04) 0px 7px 7px -5px',
+    md: '0 1px 3px rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px',
+    lg: '0 1px 3px rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05) 0px 28px 23px -7px, rgba(0, 0, 0, 0.04) 0px 12px 12px -7px',
+    xl: '0 1px 3px rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05) 0px 36px 28px -7px, rgba(0, 0, 0, 0.04) 0px 17px 17px -7px',
+  },
+  //font sizes
+  fontSizeXs: 12,
+  fontSizeSm: 14,
+  fontSizeMd: 16,
+  fontSizeLg: 18,
+  fontSizeXl: 20,
+  
   //customise
   smmd: "@media (max-width: 670px)",
   mdlg: "@media (max-width: 1160px)",
@@ -121,22 +135,11 @@ export const variable = {
   lineHeightBase: "1.7142857143",
 
   //spacing
-  spacer: 16,
-  spacer0: 0,
-  spacer1: 4,
-  spacer2: 8,
-  spacer3: 12,
-  spacer4: 16,
-  spacer5: 24,
-  spacer6: 28,
-  spacer7: 32,
-  spacer8: 36,
-  spacer9: 40,
-  spacer10: 44,
-  spacer11: 48,
-  spacer12: 60,
-  spacer13: 70,
-  spacer14: 90,
+  spacingXs: 10,
+  spacingSm: 12,
+  spacingMd: 16,
+  spacingLg: 20,
+  spacingXl: 24,
 
   //gap
   gap: 15,
@@ -152,14 +155,12 @@ export const variable = {
   oneColPaddingMobile: "0 24px",
 
   //breakpoint
-
-  xs: 0,
-  sm: 600,
-  md: 960,
-  lg: 1280,
-  xl: 1920,
-  xxl: 4000,
-  cussm: 667,
+  breakpointXs: 576,
+  breakpointSm: 768,
+  breakpointMd: 992,
+  breakpointLg: 1200,
+  breakpointXl: 1400,
+  
 
   mobile: 768,
   mobileDown: "@media(max-width: 767px)",
