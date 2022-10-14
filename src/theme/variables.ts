@@ -11,7 +11,7 @@ export const variable = {
   pink: "#E91E63",
   purple: "#613d7c",
 
-  primaryColor: "#1E96FC",
+  primaryColor: "blue",
   secondaryColor: "#E91E63",
   error: "#F44336",
   warning: "#FFC107",

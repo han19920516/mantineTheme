@@ -3,7 +3,7 @@ import variable from "./variables";
 
 const mantineTheme: MantineThemeOverride = {
   colorScheme: 'light',
-  primaryColor: 'blue',
+  primaryColor: variable.primaryColor,
   headings: {
     fontFamily: variable.fontFamily,
     fontWeight: variable.fontWeightLight,
