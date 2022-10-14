@@ -1,7 +1,15 @@
 import { createStyles, Select, TextInput } from '@mantine/core';
-import theme from '../theme/theme'
 
-const useStyles = createStyles({
+const useStyles = createStyles((theme) => ({
+  root: {
+    position: 'relative',
+  },
+
+  input: {
+    height: 'auto',
+    paddingTop: 18,
+  },
+
   label: {
     position: 'absolute',
     pointerEvents: 'none',
@@ -10,16 +18,24 @@ const useStyles = createStyles({
     paddingTop: theme.spacing.sm / 2,
     zIndex: 1,
   },
+}));
+
+//you can pass your custom theme here.
+const myTheme = createStyles({
+  container:{
+    maxWidth:"1336px",
+    margin:'auto'
+  }
 });
 
 export function ContainedInputs() {
   // You can add these classes as classNames to any Mantine input, it will work the same
   const { classes } = useStyles();
+  const {container}=myTheme().classes;
 
   return (
-    <div>
+    <div className={container}>
       <TextInput label="Shipping address" placeholder="15329 Huston 21st" classNames={classes} />
-
       <Select
         style={{ marginTop: 20, zIndex: 2 }}
         data={['React', 'Angular', 'Svelte', 'Vue']}
@@ -31,3 +47,4 @@ export function ContainedInputs() {
     </div>
   );
 }
+

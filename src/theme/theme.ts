@@ -34,7 +34,7 @@ export default {
     errorText: variable.error,
   },
   defaultFontStyle: {
-    fontFamily: variable.fontFamily.join(","),
+    fontFamily: variable.fontFamily,
     WebkitFontSmoothing: "subpixel-antialiased",
     MozOsxFontSmoothing: "subpixel-antialiased",
   },

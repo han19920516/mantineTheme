@@ -25,7 +25,7 @@ export const variants = {
     backgroundColor: variable.white,
   },
   heading: {
-    fontFamily: variable.fontFamily.join(","),
+    fontFamily: variable.fontFamily,
     fontSize: variable.fontSizeBase,
     h1: {
       fontSize: variable.fontSizeH1,
@@ -152,7 +152,7 @@ export const darkVariants = {
     backgroundColor: variable.black,
   },
   heading: {
-    fontFamily: variable.fontFamily.join(","),
+    fontFamily: variable.fontFamily,
     fontSize: variable.fontSizeBase,
     h1: {
       fontSize: variable.fontSizeH1,

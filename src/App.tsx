@@ -1,10 +1,10 @@
 import { MantineProvider, Text } from '@mantine/core';
-import overrideMantineTheme from './theme/overrideMantineTheme';
+import mantineTheme from './theme/mantineTheme';
 import {ContainedInputs} from './components/ContainedInputs'
 
 export default function App() {
   return (
-    <MantineProvider theme={overrideMantineTheme} withGlobalStyles withNormalizeCSS>
+    <MantineProvider theme={mantineTheme} withGlobalStyles withNormalizeCSS>
       <ContainedInputs />
     </MantineProvider>
   );

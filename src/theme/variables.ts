@@ -71,7 +71,7 @@ export const variable = {
   lgxl: "@media (max-width: 1540px)",
 
   //font
-  fontFamily: [
+  fontFamily: `
     "Proxima Nova",
     "GT Walsheim",
     "-apple-system",
@@ -84,8 +84,8 @@ export const variable = {
     "Apple Color Emoji",
     "Segoe UI Emoji",
     "Segoe UI Symbol",
-    "Noto Color Emoji",
-  ],
+    "Noto Color Emoji",`
+  ,
   // fontFamily: 'Proxima Nova, -apple-system, Helvetica Neue, Arial, sans-serif',
   fontFamilyShort: "Proxima Nova",
   fontFamilyAdvanced: "PT Serif",
